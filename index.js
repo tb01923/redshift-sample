@@ -9,19 +9,12 @@ const { resolveFutureThenExit } = require('./output/handle-results') ;
 const { textTableOutput } = require('./output/text-table-output') ;
 
 // connect to redshift cluster
-// const redshiftClient = redshift.from(
-//   'host_dns',
-//   5439,
-//   'database_name',
-//   'user_name',
-//   'pwd'
-// ) ;
 const redshiftClient = redshift.from(
-  'testrscluster.ctoywwwvr8fe.us-east-2.redshift.amazonaws.com',
+  'host_dns',
   5439,
-  'testrsdatabase',
-  'adminmaster',
-  'Test01923'
+  'database_name',
+  'user_name',
+  'pwd'
 ) ;
 // => Future <e Redshift>
 
