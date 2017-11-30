@@ -1,0 +1,17 @@
+{
+  "name": "redshift",
+  "version": "1.0.0",
+  "description": "",
+  "main": "redshift.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fluture": "^7.2.2",
+    "fluture-sanctuary-types": "^1.3.0",
+    "node-redshift": "^0.1.5",
+    "sanctuary": "^0.13.2"
+  }
+}
